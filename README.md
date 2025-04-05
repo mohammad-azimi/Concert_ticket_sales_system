@@ -43,23 +43,29 @@ Follow these steps to run the project locally:
    
 2. **Create and Activate a Virtual Environment:**
   - On Unix-based systems (Linux/Mac):
+    ```bash
       python3 -m venv venv
       source venv/bin/activate
   - On Windows:
+    ```bash
       python -m venv venv
       venv\Scripts\activate
 
 3. **Install Dependencies:**
-    - pip install -r requirements.txt
+   ```bash
+    pip install -r requirements.txt
 
-4. **Run Migrations:**
-     - python manage.py migrate
+5. **Run Migrations:**
+   ```bash
+     python manage.py migrate
 
-5. **Create a Superuser (if needed):**
-     - python manage.py createsuperuser
+7. **Create a Superuser (if needed):**
+   ```bash
+     python manage.py createsuperuser
 
-6. **Run the Development Server:**
-     - python manage.py runserver
+9. **Run the Development Server:**
+    ```bash
+     python manage.py runserver
 
 Then, open http://127.0.0.1:8000 in your browser.
 
@@ -96,8 +102,8 @@ If you are interested in contributing to this project:
 - Commit Message Standards: Use Conventional Commits guidelines to ensure clear commit messages.
 
 ## License
-This project is licensed under the MIT License.
----
+
+  - This project is licensed under the MIT License.
 
 ### Explanation
 
