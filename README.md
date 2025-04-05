@@ -96,7 +96,6 @@ If you are interested in contributing to this project:
 - Commit Message Standards: Use Conventional Commits guidelines to ensure clear commit messages.
 
 ## License
-
 This project is licensed under the MIT License.
 ---
 
