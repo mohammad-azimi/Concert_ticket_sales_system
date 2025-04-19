@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Concert Ticket Sales System</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="{% static 'TicketSales/css/style.css' %}">
+    </head>
+    <body>
+        <h1>Concert List</h1>
+        <ul>
+            {% if concertlist %}
+                <h3>Total Concerts Available : {{ concertcount }} </h3>
+                {% for concert in concertlist %}
+                    <li>
+                        {{ concert }}
+                    </li>
+                {% endfor %}
+            {% endif %}
+        </ul>
+    </body>
+</html>
